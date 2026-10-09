@@ -89,7 +89,7 @@ export const StorySchema = z.object({
 >
 > **Photo from the Trail**:
 >
-> *[Insert photo of your trail with phone screen showing the Touch Grass Score badge]*
+> ![Outdoor Trail Walk with Zero-Screen Dungeon Master 94% Touch Grass Score](https://raw.githubusercontent.com/vidishagupta/zero-screen-dungeon-master/main/web/public/trail_test_score.jpg)
 
 ---
 

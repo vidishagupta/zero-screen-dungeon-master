@@ -8,6 +8,10 @@
 
 > **A voice-only walking RPG where your real-world physical steps drive the narrative. Put your headphones on, tuck your phone in your pocket, and touch grass.**
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vidishagupta/zero-screen-dungeon-master/main/web/public/trail_test_score.jpg" alt="Zero-Screen Dungeon Master Outdoor Trail Walk & Touch Grass Score" width="100%" style="border-radius: 12px;" />
+</p>
+
 ---
 
 ## 🧭 Overview
