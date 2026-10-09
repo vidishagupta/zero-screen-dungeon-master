@@ -3,7 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Hacktoberfest 2026](https://img.shields.io/badge/Hacktoberfest%202026-Touch%20Grass%20Challenge-blueviolet)](https://dev.to/challenges/hacktoberfest-2026)
 [![AI Engine](https://img.shields.io/badge/AI%20Engine-Google%20Gemma%20(Open--Weight)-blue)](https://ai.google.dev/gemma)
-[![Deployment](https://img.shields.io/badge/Deployed%20On-Render-46E3B7)](https://render.com)
+[![Deployment](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-emerald)](https://vidishagupta.github.io/zero-screen-dungeon-master/)
+[![Repository](https://img.shields.io/badge/GitHub-zero--screen--dungeon--master-blue)](https://github.com/vidishagupta/zero-screen-dungeon-master)
 
 > **A voice-only walking RPG where your real-world physical steps drive the narrative. Put your headphones on, tuck your phone in your pocket, and touch grass.**
 

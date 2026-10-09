@@ -4,7 +4,7 @@ published: false
 description: "A pocket-first, offline-ready audio RPG powered by open-weight Gemma AI and GPS distance tracking that gets you outside touching grass."
 tags: "devchallenge, hf26challenge, webdev, ai, opensource"
 cover_image: "https://raw.githubusercontent.com/vidishagupta/zero-screen-dungeon-master/main/web/public/cover.png"
-canonical_url: "https://zero-screen-dungeon-master.onrender.com"
+canonical_url: "https://vidishagupta.github.io/zero-screen-dungeon-master/"
 ---
 
 *This is a submission for the [DEV Hacktoberfest Open-Source AI Challenge: Week 1 - Touch Grass](https://dev.to/challenges/hacktoberfest-2026).*
@@ -30,7 +30,7 @@ Here is how a walk works:
 
 ## 🚀 Live Demo & Code
 
-- 🌐 **Live Web Application (PWA)**: [https://zero-screen-dungeon-master.onrender.com](https://zero-screen-dungeon-master.onrender.com)
+- 🌐 **Live Web Application (PWA)**: [https://vidishagupta.github.io/zero-screen-dungeon-master/](https://vidishagupta.github.io/zero-screen-dungeon-master/)
 - 💻 **Open-Source GitHub Repository**: [https://github.com/vidishagupta/zero-screen-dungeon-master](https://github.com/vidishagupta/zero-screen-dungeon-master)
 
 <!-- PLACEHOLDER: INSERT SHORT 30-SEC DEMO VIDEO CLIP OR GIF HERE -->
