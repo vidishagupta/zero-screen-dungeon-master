@@ -1,0 +1,159 @@
+{
+  "id": "fantasy_ancient_grove",
+  "title": "The Whispering Canopy",
+  "theme": "fantasy",
+  "vibe": "park or quiet trail",
+  "checkpointDistanceMeters": 80,
+  "estimatedWalkMeters": 560,
+  "description": "An enchanted trail where ancient root-spirits react to your walking pace. Step into the misty verge of Eldenwood.",
+  "author": "Forged with Gemma (Open-Weight LLM)",
+  "intro": {
+    "text": "Put your phone in your pocket and keep your headphones snug. You are stepping onto the mossy boundary of Eldenwood. The air grows cool, smelling of crushed pine needles and damp earth. A faint shimmer ripples between two elder trees ahead. Begin walking forward to cross the veil.",
+    "nextCheckpointId": "cp_1"
+  },
+  "checkpoints": [
+    {
+      "id": "cp_1",
+      "distanceMeters": 80,
+      "narration": "You have crossed the first threshold. The mundane sounds of traffic fade into distant murmurs, replaced by the melodic hum of luminescent silverbell flowers. The path divides abruptly before a moss-covered boulder. To your left, a low tunnel of twisted willow branches emits a soft amber glow. To your right, an upward slope of jagged slate stones winds toward a breezy overlook.",
+      "prompt": "Tap the LEFT half of your screen to enter the glowing willow tunnel, or tap the RIGHT half to climb the slate ridge.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Enter glowing willow tunnel",
+          "nextCheckpointId": "cp_2_willow"
+        },
+        {
+          "key": "right",
+          "label": "Climb slate ridge",
+          "nextCheckpointId": "cp_2_ridge"
+        }
+      ]
+    },
+    {
+      "id": "cp_2_willow",
+      "distanceMeters": 80,
+      "narration": "You duck into the willow tunnel. Golden motes of spores float around your shoulders like curious fireflies. As your footsteps rhythmically hit the soft earth, you hear a rhythmic tapping sound echoing beneath the roots—someone or something is keeping time with your stride. Ahead, a subterranean stream crosses the trail, flanked by a slumbering stone warden covered in green runes.",
+      "prompt": "Tap the LEFT half of your screen to softly whisper the awakening incantation to the stone warden, or tap the RIGHT half to wade silently through the cool creek water.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Awaken the stone warden",
+          "nextCheckpointId": "cp_3_warden"
+        },
+        {
+          "key": "right",
+          "label": "Wade through the creek",
+          "nextCheckpointId": "cp_3_creek"
+        }
+      ]
+    },
+    {
+      "id": "cp_2_ridge",
+      "distanceMeters": 80,
+      "narration": "You ascend the slate ridge. The wind whips past your ears carrying ancient whispers. Below you, the entire canopy spreads out like a sea of emerald velvet. Perched on a cliff edge ahead is a rusted celestial astrolabe aligned with the sun. Beside it sits an altar of hollow bone flutes catching the breeze.",
+      "prompt": "Tap the LEFT half of your screen to align the celestial astrolabe, or tap the RIGHT half to play the wind flutes.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Align celestial astrolabe",
+          "nextCheckpointId": "cp_3_astrolabe"
+        },
+        {
+          "key": "right",
+          "label": "Play the wind flutes",
+          "nextCheckpointId": "cp_3_flutes"
+        }
+      ]
+    },
+    {
+      "id": "cp_3_warden",
+      "distanceMeters": 80,
+      "narration": "The stone warden's jade eyes ignite. It bows deeply, offering you an orb of crystallized sap pulsing with tree-memory. 'Walker of the earth,' it rumbles, 'take the pulse of the forest.' Up ahead, the trail opens into the heart of the Grand Grove, where a towering Arch-Oak stands under siege by creeping purple blight.",
+      "prompt": "Tap the LEFT half of your screen to channel the crystal sap into the Arch-Oak's roots, or tap the RIGHT half to climb the branches and face the blight core directly.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Channel sap into roots",
+          "nextCheckpointId": "end_harmony"
+        },
+        {
+          "key": "right",
+          "label": "Climb to blight core",
+          "nextCheckpointId": "end_guardian_pact"
+        }
+      ]
+    },
+    {
+      "id": "cp_3_creek",
+      "distanceMeters": 80,
+      "narration": "The crisp mountain stream invigorates your legs. As you step out on the opposite bank, wild dryads emerge from the foliage, intrigued by your stealth. They encircle you, humming a wild, untamed melody that makes the forest vines dance in synchrony with your heartbeat.",
+      "prompt": "Tap the LEFT half of your screen to join their wild dance, or tap the RIGHT half to sprint toward the sacred spring sanctuary ahead.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Join the wild dance",
+          "nextCheckpointId": "end_feral_bloom"
+        },
+        {
+          "key": "right",
+          "label": "Sprint to spring sanctuary",
+          "nextCheckpointId": "end_harmony"
+        }
+      ]
+    },
+    {
+      "id": "cp_3_astrolabe",
+      "distanceMeters": 80,
+      "narration": "The brass rings turn smoothly. A beam of golden sunlight refracts through the lens, slicing through the canopy mist and burning away ancient illusions. A hidden bridge of solidified moonlight appears across the ravine.",
+      "prompt": "Tap the LEFT half of your screen to cross the moonbridge, or tap the RIGHT half to secure the astrolabe lens and keep walking the ridge.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Cross the moonbridge",
+          "nextCheckpointId": "end_harmony"
+        },
+        {
+          "key": "right",
+          "label": "Walk ridge trail",
+          "nextCheckpointId": "end_guardian_pact"
+        }
+      ]
+    },
+    {
+      "id": "cp_3_flutes",
+      "distanceMeters": 80,
+      "narration": "Your breath blends with the bone flutes, producing a resonant chord that vibrates through the earth under your soles. A flock of spectral stags bounds out of the mist, escorting your march like an ancient vanguard.",
+      "prompt": "Tap the LEFT half of your screen to run alongside the vanguard stags, or tap the RIGHT half to guide them into the deep hollow.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Run with vanguard stags",
+          "nextCheckpointId": "end_guardian_pact"
+        },
+        {
+          "key": "right",
+          "label": "Guide stags into hollow",
+          "nextCheckpointId": "end_feral_bloom"
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "id": "end_harmony",
+      "title": "Ending 1: Dawn of the Sylvan Canopy",
+      "narration": "A wave of emerald light sweeps across the horizon. The blight dissolves into fragrant pollen. The trees bend gently in reverence as you finish your walk. You have restored balance to the ancient grove through the strength of your own footsteps. Take out your phone to review your journey and Touch Grass Score."
+    },
+    {
+      "id": "end_guardian_pact",
+      "title": "Ending 2: The Warden's Eternal Oath",
+      "narration": "You stand atop the high peak as the winds crown you as an honorary Ranger of the Eldenwood. The spirit beasts bow and disperse into the greenery, forever pledged to protect travelers who walk with quiet purpose. You have completed the trial. Take out your phone to view your stats."
+    },
+    {
+      "id": "end_feral_bloom",
+      "title": "Ending 3: The Feral Awakening",
+      "narration": "Wild flora surges along the trail behind your heels, leaving a thriving wake of flowers and wild clover. You have merged your spirit with the wild earth itself. You are no longer just a wanderer; you are part of the living wild. Pull out your phone to inspect your walk score."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "mystery_clocktower",
+  "title": "The Forgotten Campus Bell",
+  "theme": "mystery",
+  "vibe": "university campus, historic district, or brick sidewalks",
+  "checkpointDistanceMeters": 80,
+  "estimatedWalkMeters": 560,
+  "description": "An occult investigation across a twilight campus. An ancient secret society has hid clockwork gears along your walking path.",
+  "author": "Forged with Gemma (Open-Weight LLM)",
+  "intro": {
+    "text": "Tuck your phone safely into your pocket and listen closely. The bell tower of St. Jude's hasn't chimed in eighty years, yet tonight you hear its deep brass resonance tolling every eighty paces. You hold an antique cipher key found inside the library archives. Walk forward along the cobblestones to follow the sound.",
+    "nextCheckpointId": "cp_1"
+  },
+  "checkpoints": [
+    {
+      "id": "cp_1",
+      "distanceMeters": 80,
+      "narration": "Eighty paces completed. The mist clings to the ivy-covered brick arches. You arrive at the quadrangle fountain, where carved stone gargoyles seem to turn their heads toward you. Beneath the fountain rim, a bronze dial clicks. Two passages open before you: the arched cloister courtyard on your left, and the shadowy lantern-lit alley behind the science hall on your right.",
+      "prompt": "Tap LEFT to enter the ivy-covered cloister courtyard, or tap RIGHT to slip down the lantern-lit science alley.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Ivy-covered cloister courtyard",
+          "nextCheckpointId": "cp_2_cloister"
+        },
+        {
+          "key": "right",
+          "label": "Lantern-lit science alley",
+          "nextCheckpointId": "cp_2_alley"
+        }
+      ]
+    },
+    {
+      "id": "cp_2_cloister",
+      "distanceMeters": 80,
+      "narration": "Your shoes click softly on the historic flagstones. Between the marble pillars, a solitary figure in a scholar's trench coat steps out from behind an obelisk. 'You heard the chime too,' the scholar whispers, revealing a brass gear that matches your cipher key.",
+      "prompt": "Tap LEFT to combine your cipher key with the scholar's gear, or tap RIGHT to quietly bypass the scholar and head for the observatory stairs.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Combine cipher key with gear",
+          "nextCheckpointId": "cp_3_crypt"
+        },
+        {
+          "key": "right",
+          "label": "Bypass scholar to observatory",
+          "nextCheckpointId": "cp_3_observatory"
+        }
+      ]
+    },
+    {
+      "id": "cp_2_alley",
+      "distanceMeters": 80,
+      "narration": "You walk past stained glass windows glowing with amber candlelight. Low chanting echoes through an old ventilation grate. On the ground lies a leather-bound journal marked with the sigil of the Chronos Society, propping open a heavy iron basement door.",
+      "prompt": "Tap LEFT to inspect the leather journal, or tap RIGHT to push open the iron basement door.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Inspect the leather journal",
+          "nextCheckpointId": "cp_3_crypt"
+        },
+        {
+          "key": "right",
+          "label": "Push open iron basement door",
+          "nextCheckpointId": "cp_3_observatory"
+        }
+      ]
+    },
+    {
+      "id": "cp_3_crypt",
+      "distanceMeters": 80,
+      "narration": "The gear slides into the lock with a satisfying click. A concealed stone spiral staircase rotates into view, spiraling upward into the clocktower's mechanical heart. The massive pendulums swing like silent sentinels.",
+      "prompt": "Tap LEFT to strike the master harmonic chime, or tap RIGHT to realign the celestial pendulum.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Strike master harmonic chime",
+          "nextCheckpointId": "end_revelation"
+        },
+        {
+          "key": "right",
+          "label": "Realign celestial pendulum",
+          "nextCheckpointId": "end_guardian_scholar"
+        }
+      ]
+    },
+    {
+      "id": "cp_3_observatory",
+      "distanceMeters": 80,
+      "narration": "You reach the glass-domed observatory above the campus. Brass telescopes track constellations that aren't on modern star charts. An alchemical pendulum swings directly over a map of the city.",
+      "prompt": "Tap LEFT to decode the star chart cipher, or tap RIGHT to lock the celestial telescope onto the north star.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Decode star chart cipher",
+          "nextCheckpointId": "end_revelation"
+        },
+        {
+          "key": "right",
+          "label": "Lock telescope onto north star",
+          "nextCheckpointId": "end_temporal_shift"
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "id": "end_revelation",
+      "title": "Ending 1: The Chronos Key Unlocked",
+      "narration": "The grand clocktower bell strikes a pure, crystal tone that resonates across the entire campus. Hidden archives unlock beneath the library, revealing centuries of forgotten knowledge preserved for the worthy. You have solved the enigma with your own footsteps. Pull out your phone to view your Touch Grass Score."
+    },
+    {
+      "id": "end_guardian_scholar",
+      "title": "Ending 2: Keeper of the Quadrangle",
+      "narration": "The pendulums settle into a harmonic rhythm. The secret society recognizes you as the new Guardian of the Clockwork. You step back onto the open quadrangle under a clear star-filled sky. Pull out your device to review your expedition stats."
+    },
+    {
+      "id": "end_temporal_shift",
+      "title": "Ending 3: The Echo of Time",
+      "narration": "A gentle warmth flows across the air. For a fleeting second, the past and present merge, showing you the founders walking these same stone paths alongside you. You take a deep, grounding breath of fresh autumn air. Check your screen to finish the walk."
+    }
+  ]
+}

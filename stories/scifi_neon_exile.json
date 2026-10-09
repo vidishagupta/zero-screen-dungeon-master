@@ -1,0 +1,159 @@
+{
+  "id": "scifi_neon_exile",
+  "title": "Signal in the Rain",
+  "theme": "sci-fi",
+  "vibe": "city streets, campus, or wet pavement",
+  "checkpointDistanceMeters": 75,
+  "estimatedWalkMeters": 525,
+  "description": "A rogue courier walking through a dense surveillance grid. Your physical steps power your signal jammer.",
+  "author": "Forged with Gemma (Open-Weight LLM)",
+  "intro": {
+    "text": "Plug in your earpiece and slip your device into your pocket. The year is 2088. Neon reflections pool across wet asphalt. You carry a decrypted neural datapad that the OmniCorp grid is hunting for. The only way to recharge your portable kinetic scrambler is continuous physical motion. Keep walking forward to slip past the outer drone scan.",
+    "nextCheckpointId": "cp_1"
+  },
+  "checkpoints": [
+    {
+      "id": "cp_1",
+      "distanceMeters": 75,
+      "narration": "Kinetic capacitor charged to twenty percent. You slip beneath the shadows of the monorail overpass. The drone patrol spotlight sweeps across the pavement inches behind your heels. Ahead, the street forks. Left leads into the subterranean steam vents of Sector 4, where heat plumes can mask your thermal signature. Right leads across an elevated pedestrian catwalk bathed in flickering holographic billboards.",
+      "prompt": "Tap LEFT to dive into the subterranean steam vents, or tap RIGHT to take the elevated neon catwalk.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Subterranean steam vents",
+          "nextCheckpointId": "cp_2_vents"
+        },
+        {
+          "key": "right",
+          "label": "Elevated neon catwalk",
+          "nextCheckpointId": "cp_2_catwalk"
+        }
+      ]
+    },
+    {
+      "id": "cp_2_vents",
+      "distanceMeters": 75,
+      "narration": "Warm vapor envelops you, smelling of ozone and hydraulic fluid. Your footsteps echo against steel grating. In the gloom, a rogue cyber-mechanic known as Null-Vector flashes a low ultraviolet laser from an alcove, signaling for the decrypted drive. Above you, an automated security scrubber is descending the vent shaft.",
+      "prompt": "Tap LEFT to hand the payload to Null-Vector, or tap RIGHT to overload the vent exhaust valves and run past.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Hand payload to Null-Vector",
+          "nextCheckpointId": "cp_3_mechanic"
+        },
+        {
+          "key": "right",
+          "label": "Overload exhaust valves",
+          "nextCheckpointId": "cp_3_overload"
+        }
+      ]
+    },
+    {
+      "id": "cp_2_catwalk",
+      "distanceMeters": 75,
+      "narration": "Rain beats down on your collar as you pace the catwalk. Giant synth-pop holograms flicker above the skyline. Your audio detector picks up the whine of an OmniCorp interceptor rotor hovering overhead. A magnetic zip-line anchor hangs nearby, while the catwalk stairs descend toward an underground subway transit hub.",
+      "prompt": "Tap LEFT to latch onto the emergency zip-line, or tap RIGHT to rush down into the subway transit hub.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Latch onto emergency zip-line",
+          "nextCheckpointId": "cp_3_zipline"
+        },
+        {
+          "key": "right",
+          "label": "Rush into subway hub",
+          "nextCheckpointId": "cp_3_subway"
+        }
+      ]
+    },
+    {
+      "id": "cp_3_mechanic",
+      "distanceMeters": 75,
+      "narration": "Null-Vector jacks the drive into a portable broadcast array. 'The network is ours,' she grins through her breath mask. 'One final push to the radio relay tower at the end of the promenade, and we broadcast the master decryption key to the entire metropolis.'",
+      "prompt": "Tap LEFT to initiate the global broadcast broadcast, or tap RIGHT to establish an encrypted underground mesh node.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Initiate global broadcast",
+          "nextCheckpointId": "end_liberation"
+        },
+        {
+          "key": "right",
+          "label": "Establish encrypted mesh node",
+          "nextCheckpointId": "end_ghost_network"
+        }
+      ]
+    },
+    {
+      "id": "cp_3_overload",
+      "distanceMeters": 75,
+      "narration": "High-pressure steam bursts across the shaft, blinding the security scrubbers and blowing out the sector's power grid. Sparks cascade around your shoulders as you sprint into the clear night air.",
+      "prompt": "Tap LEFT to deploy an EMP pulse to blackout the pursuing drone swarm, or tap RIGHT to slip into the darkened city grid.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Deploy EMP pulse",
+          "nextCheckpointId": "end_emp_blackout"
+        },
+        {
+          "key": "right",
+          "label": "Slip into dark grid",
+          "nextCheckpointId": "end_ghost_network"
+        }
+      ]
+    },
+    {
+      "id": "cp_3_zipline",
+      "distanceMeters": 75,
+      "narration": "You slide smoothly across the neon canyon, the wind deafening in your ears before you land on a high rooftop transmission dish. The entire city lights glitter below your feet.",
+      "prompt": "Tap LEFT to broadcast the leak directly from the roof dish, or tap RIGHT to sabotage the corporate grid power line.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Broadcast from roof dish",
+          "nextCheckpointId": "end_liberation"
+        },
+        {
+          "key": "right",
+          "label": "Sabotage power line",
+          "nextCheckpointId": "end_emp_blackout"
+        }
+      ]
+    },
+    {
+      "id": "cp_3_subway",
+      "distanceMeters": 75,
+      "narration": "You dart through the automated turnstiles into a moving automated mag-lev train. Commuters glance up as your kinetic jammer pulses a low blue ring of light.",
+      "prompt": "Tap LEFT to inject the virus into the mag-lev central mainframe, or tap RIGHT to ride the ghost train into the free perimeter.",
+      "choices": [
+        {
+          "key": "left",
+          "label": "Inject virus into mainframe",
+          "nextCheckpointId": "end_liberation"
+        },
+        {
+          "key": "right",
+          "label": "Ride ghost train to free perimeter",
+          "nextCheckpointId": "end_ghost_network"
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "id": "end_liberation",
+      "title": "Ending 1: The Metropolis Unbound",
+      "narration": "Every screen, billboard, and terminal across the metropolis flashes green with decrypted truth. The corporate firewall crumbles. You step out into the rain as free citizen applause echoes through the canyons. Your stride has rewritten the future. Check your screen to see your walk stats and Touch Grass Score."
+    },
+    {
+      "id": "end_ghost_network",
+      "title": "Ending 2: Ghost of the Subgrid",
+      "narration": "Your footsteps fade into the labyrinth of the city. You are invisible to every satellite and optical lens. The underground resistance now communicates through your footsteps. You are the urban ghost. Take out your device to check your final mission metrics."
+    },
+    {
+      "id": "end_emp_blackout",
+      "title": "Ending 3: The Silent Skyline",
+      "narration": "A blinding flash of electromagnetic fury sweeps across the district. The neon signs wink out, revealing the forgotten starlight in the night sky. In the peaceful quiet of the city, you keep walking. Review your touch grass summary on your screen."
+    }
+  ]
+}
