@@ -33,8 +33,11 @@ Here is how a walk works:
 - 🌐 **Live Web Application (PWA)**: [https://vidishagupta.github.io/zero-screen-dungeon-master/](https://vidishagupta.github.io/zero-screen-dungeon-master/)
 - 💻 **Open-Source GitHub Repository**: [https://github.com/vidishagupta/zero-screen-dungeon-master](https://github.com/vidishagupta/zero-screen-dungeon-master)
 
-<!-- PLACEHOLDER: INSERT SHORT 30-SEC DEMO VIDEO CLIP OR GIF HERE -->
-> **[Video Demo / GIF]**: *[Insert screen recording or video walking clip of the app in action here]*
+### 🎬 Interactive Gameplay Flow
+
+![Zero-Screen Dungeon Master Gameplay Demo Workflow](https://raw.githubusercontent.com/vidishagupta/zero-screen-dungeon-master/main/web/public/gameplay_demo.png)
+
+> **Live Walkthrough**: The interactive experience takes you from choosing an adventure to a pulsing GPS Audio Radar HUD, hands-free blind split-screen decision zones, and your final Touch Grass Score summary.
 
 ---
 
